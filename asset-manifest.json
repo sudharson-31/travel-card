@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/travel-card/static/css/main.24d0e533.css",
-    "main.js": "/travel-card/static/js/main.70748133.js",
+    "main.js": "/travel-card/static/js/main.e2391fbb.js",
     "index.html": "/travel-card/index.html",
     "main.24d0e533.css.map": "/travel-card/static/css/main.24d0e533.css.map",
-    "main.70748133.js.map": "/travel-card/static/js/main.70748133.js.map"
+    "main.e2391fbb.js.map": "/travel-card/static/js/main.e2391fbb.js.map"
   },
   "entrypoints": [
     "static/css/main.24d0e533.css",
-    "static/js/main.70748133.js"
+    "static/js/main.e2391fbb.js"
   ]
 }
