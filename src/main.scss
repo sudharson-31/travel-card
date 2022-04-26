@@ -40,6 +40,7 @@ body{
            width: min-content;
            margin-right: 3%;
             img{
+                image-rendering: optimizeSpeed;
                 border-radius: 6px;
                 width: 120px;
                 height: 170px;
@@ -87,5 +88,32 @@ body{
             }
         }
         
+    }
+}
+@media only screen and (max-width: 1000px){
+    .cards-holder{
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .cards-holder{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .rel-data{
+        font-size: 0.7em !important;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .travel-dates{
+    font-size: 0.7em !important;
+    }
+    .description{
+        font-size: 0.7em !important;
     }
 }
