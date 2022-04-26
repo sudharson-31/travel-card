@@ -1,9 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-h3 {
-  color: red;
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-block: 1%;
+  background-color: #F55A5A;
+}
+
+.header img {
+  height: 36px;
+  width: 36px;
+  float: left;
+}
+
+.header h3 {
+  padding-left: 1%;
+  font-weight: 400;
+  color: #fff;
+}
+
+.cards-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.cards-holder .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5%;
+}
+
+.cards-holder .card .img-holder {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin-right: 3%;
+}
+
+.cards-holder .card .img-holder img {
+  border-radius: 6px;
+  width: 120px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards-holder .card .content-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cards-holder .card .content-holder .rel-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3%;
+  font-size: .7em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards-holder .card .content-holder .rel-data img {
+  height: 15px;
+}
+
+.cards-holder .card .content-holder .rel-data h3 {
+  padding-left: 8px;
+  font-weight: 400;
+  color: #2B283A;
+  letter-spacing: 3px;
+  padding-right: 15px;
+}
+
+.cards-holder .card .content-holder .rel-data a {
+  color: #918E9B;
+}
+
+.cards-holder .card .content-holder h2 {
+  color: #2B283A;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.cards-holder .card .content-holder .travel-dates {
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #2B283A;
+}
+
+.cards-holder .card .content-holder .description {
+  padding-top: 2%;
+  color: #2B283A;
+  font-size: 0.8em;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
